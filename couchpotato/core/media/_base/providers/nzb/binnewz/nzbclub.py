@@ -61,4 +61,3 @@ class NZBClub(NZBDownloader, NZBProvider, RSS):
                    
             return NZBGetURLSearchResult( self, downloadUrl, sizeInMegs, nzbClubURL, age, nzbid)
             
-                
